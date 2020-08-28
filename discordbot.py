@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.commands
-async def join(ctx):
+async def sanka(ctx):
     """Botをボイスチャンネルに入室させます。"""
     voice_state = ctx.author.voice
 
